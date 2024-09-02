@@ -4,12 +4,12 @@
 `ragcon` is a command-line tool designed to integrate with a Neo4j graph database and the Ollama service to handle embeddings and queries. This tool supports embedding PDF files, content from URLs, or plain text strings into a database, and querying the stored data. The embeddings can be managed through a local or remote instance of the Ollama service.
 
 ## Requirements
-- Java 8 or higher
-- Neo4j Database (default connection: `bolt://localhost:7687`)
-- Ollama service for embeddings (default service URL: `http://127.0.0.1:11434`)
+    - Java 8 or higher
+    - Neo4j Database (default connection: `bolt://localhost:7687`)
+    - Ollama service for embeddings (default service URL: `http://127.0.0.1:11434`)
 
 ## Usage
-To use `ragcon`, run the JAR file with the appropriate options:
+    To use `ragcon`, run the JAR file with the appropriate options:
 
 Options
 
@@ -59,11 +59,13 @@ Options
       Example:
         java -jar ragcon-0.26.1.jar --ollama-url http://remotehost:11434
 
-Example Usage Scenarios
+Example Usage Scenarios:
+
     - Embed a single PDF file:
-      java -jar ragcon-0.26.1.jar --embed /path/to/document.pdf
+          java -jar ragcon-0.26.1.jar --embed /path/to/document.pdf
+      
     - Query the database:
-      java -jar ragcon-0.26.1.jar --query "Find all documents related to AI"
+          java -jar ragcon-0.26.1.jar --query "Find all documents related to AI"
 
 Contributing
 Contributions are welcome! Please submit a pull request or file an issue for any improvements or bug reports.
