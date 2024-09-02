@@ -1,4 +1,4 @@
-# Ragcon v0.26.1 - Matthew Beddoes
+# Ragcon v0.26.1 - JAVA RAG MANAGER
 
 ## Overview
 `ragcon` is a command-line tool designed to integrate with a Neo4j graph database and the Ollama service to handle embeddings and queries. This tool supports embedding PDF files, content from URLs, or plain text strings into a database, and querying the stored data. The embeddings can be managed through a local or remote instance of the Ollama service.
